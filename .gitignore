@@ -1,0 +1,66 @@
+## .NET / WinUI build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ww][Ii][Nn]32/
+*.user
+*.suo
+*.cache
+*.dll.config
+*.exe.config
+
+## Visual Studio
+.vs/
+*.userprefs
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+## Rider / VS Code
+.idea/
+.vscode/
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+*.snupkg
+[Pp]ackages/
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## WinUI 3 / MSIX packaging
+[Aa]pp[Pp]ackages/
+[Bb]undle[Aa]rtifacts/
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+*.pfx
+*.cer
+[Gg]enerated\ [Ff]iles/
+
+## Build logs / diagnostics
+*.binlog
+*.log
+msbuild.log
+*.tlog
+
+## Publish output
+publish/
+*.zip
+
+## OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
